@@ -16,7 +16,7 @@ ShadowGuard is a honeypot system developed to trap cyber attackers, analyze thei
 To run the project smoothly in a Linux environment, the following software must be installed on your system.
 
 1. Docker Installation
-Docker is mandatory as the entire system runs on a container architecture.
+Docker is mandatory as the entire system runs on a container architecture. If its necessary dont forget adding " xhost +local:docker "
 
 2. LM Studio Installation 
 The honeypot requires a local AI model to generate dynamic content.
